@@ -5,30 +5,70 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>LOG AIO PRIME PRO</title>
     <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
         body {
-            font-family: sans-serif;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
             background-color: #0d1b2a;
             color: #ffffff;
             text-align: center;
-            padding: 50px;
+            padding: 40px 20px;
+        }
+        .container {
+            max-width: 900px;
+            margin: auto;
         }
         h1 {
-            font-size: 2.5em;
+            font-size: 3em;
+            margin-bottom: 10px;
         }
-        p {
-            font-size: 1.2em;
+        p.tagline {
+            font-size: 1.3em;
+            margin-bottom: 30px;
+            color: #cccccc;
         }
         img {
-            max-width: 80%;
+            width: 100%;
+            max-width: 600px;
             height: auto;
-            margin-top: 30px;
+            border-radius: 12px;
+            box-shadow: 0 8px 20px rgba(0,0,0,0.4);
+            margin-bottom: 30px;
+        }
+        .cta {
+            display: inline-block;
+            padding: 14px 28px;
+            font-size: 1em;
+            color: white;
+            background: #0077ff;
+            border: none;
+            border-radius: 8px;
+            text-decoration: none;
+            transition: background 0.3s ease;
+        }
+        .cta:hover {
+            background: #005fcc;
+        }
+        footer {
+            margin-top: 50px;
+            font-size: 0.9em;
+            color: #888;
         }
     </style>
 </head>
 <body>
-    <h1>LOG AIO PRIME PRO</h1>
-    <p>Engineered For Impact</p>
-    <p>Monitor siap pakai, tajam, dan andal untuk kebutuhan profesional Anda.</p>
-    <img src="img/log-monitor.jpg" alt="Monitor LOG">
+    <div class="container">
+        <h1>LOG AIO PRIME PRO</h1>
+        <p class="tagline">Engineered For Impact</p>
+        <img src="img/log-monitor.jpg" alt="Monitor LOG AIO">
+        <p>Monitor siap pakai, tajam, dan andal untuk kebutuhan profesional Anda.</p>
+        <a class="cta" href="https://wa.me/6289519306013" target="_blank">Chat via WhatsApp</a>
+        <footer>
+            <p>&copy; 2025 LOG. All rights reserved.</p>
+        </footer>
+    </div>
 </body>
 </html>
